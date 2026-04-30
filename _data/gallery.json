@@ -1,0 +1,10 @@
+{
+  "title": "我的法鬥相簿",
+  "photos": [
+    {
+      "title": "帥氣的虎斑法鬥",
+      "description": "這是帥哥老闆最可愛的法國鬥牛犬。",
+      "imageUrl": "/images/frenchie.jpg"
+    }
+  ]
+}

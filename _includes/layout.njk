@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 2rem auto; padding: 0 1rem; background-color: #f8f9fa; color: #343a40; }
+        h1, h2 { color: #0056b3; }
+        .gallery { text-align: center; }
+        .photo-card { background-color: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); padding: 1rem; margin-bottom: 2rem; }
+        img { max-width: 100%; height: auto; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <h1>{{ title }}</h1>
+        <main>
+            {{ content | safe }}
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+---
+layout: layout.njk
+title: "{{ gallery.title }}"
+---
+{% for photo in gallery.photos %}
+<div class="photo-card">
+    <h2>{{ photo.title }}</h2>
+    <img src="{{ photo.imageUrl }}" alt="{{ photo.description }}">
+    <p>{{ photo.description }}</p>
+</div>
+{% endfor %}
